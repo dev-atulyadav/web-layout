@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Layout-1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;500&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="home"><i class="fa-solid fa-house"></i><span>Home</span></li>
+                <li id="profile"><i class="fa-solid fa-user"></i><span>Profile</span></li>
+                <li id="service"><i class="fa-solid fa-gears"></i><span>Services</span></li>
+                <li><i class="fa-solid fa-circle-question"></i><span>About Us</span></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <section id="welcome-section">
+            <article>
+                <div>
+                    <h2>Welcome at Tech-Hub</h2>
+                    <p>We the provide best resources and tools for enhance your skills.</p>
+                    <p>*Tearms and conditons applied. <a href="">See Details</a></p>
+                    <button>Read More</button>
+                </div>
+                <div class="img"></div>
+            </article>
+        </section>
+        <section id="profile-section">
+            <article id="option-section">
+                <div>
+                    <h2>Login/Sign-Up to continue</h2>
+                    <p>Login or Sign-Up to explore more about new technology and many more.</p>
+                    <p>*Tearms and conditons applied. <a href="">See Details</a></p>
+                    <button id="login-btn">LogIn</button>
+                    <button id="signup-btn">SignUp</button>
+                </div>
+                <div class="img"></div>
+            </article>
+            <article id="login-section" style="display: none;">
+                <div>
+                    <form action="" class="login-form">
+                        <span id="close-btn1"><i class="fa-solid fa-xmark"></i></span>
+                        <input type="email" placeholder="Enter e-mail" required>
+                        <input type="password" placeholder="Enter password" required>
+                        <input type="submit" value="LogIn">
+                        <p>new user? <span id="show-signup">create new account</span></p>
+                    </form>
+                </div>
+                <div class="img"></div>
+            </article>
+            <article id="signup-section" style="display: none;">
+                <div>
+                    <span id="close-btn2"><i class="fa-solid fa-xmark"></i></span>
+                    <form action="" class="signup-form">
+                        <input type="text" placeholder="First name" required name="first-name">
+                        <input type="text" placeholder="Last name" required name="last-name">
+                        <input type="tel" placeholder="Contact number" required name="number">
+                        <input type="text" placeholder="Enter address" name="email">
+                        <span>
+                            <span>Male</span><input type="radio" name="gender" value="male">
+                            <span>Female</span><input type="radio" name="gender" value="female">
+                            <span>Other</span><input type="radio" name="gender" value="other">
+                        </span>
+                        <input type="email" placeholder="Enter e-mail" required>
+                        <input type="password" placeholder="Enter password" required>
+                        <input type="submit" value="Register">
+                        <p>Already a user? <span id="show-login">Login</span></p>
+                    </form>
+                </div>
+                <div class="img"></div>
+            </article>
+        </section>
+        <section id="service-section">
+            <article id="service-option">
+                <div>
+                    <h2>Boost careers growth</h2>
+                    <p>Learn with our best trainers. We provide top most advance courses at valuable price.</p>
+                    <p>*Tearms and conditons applied. <a href="">See Details</a></p>
+                    <button id="explr-btn">Explore Now</button>
+                </div>
+                <div class="img"></div>
+            </article>
+            <article id="courses">
+                <div class="card">
+                    <div class="img"></div>
+                    <h3>Digital Marketing</h4>
+                        <p>Enroll with our latest Digital Marketing course and get job ready skills to get high paying
+                            jobs.</p>
+                        <p>Only at <strong>₹ 20990*</strong></p>
+                        <button>Enroll Now</button>
+                </div>
+                <div class="card">
+                    <div class="img"></div>
+                    <h3>Graphic Designing</h4>
+                        <p>Enroll with our latest Graphic Designing course and get job ready skills to get high paying
+                            jobs.</p>
+                        <p>Only at <strong>₹ 15099*</strong></p>
+                        <button>Enroll Now</button>
+                </div>
+                <div class="card">
+                    <div class="img"></div>
+                    <h3>Software Developer</h4>
+                        <p>Enroll with our latest Software Developer course and get job ready skills to get high paying
+                            jobs.</p>
+                        <p>Only at <strong>₹ 38099*</strong></p>
+                        <button>Enroll Now</button>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/ea3c3184e5.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
